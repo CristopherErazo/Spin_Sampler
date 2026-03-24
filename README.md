@@ -8,7 +8,7 @@ Course: TSDS PhD.
 
 The **Spin Sampler** library is a Python package designed to sample configurations from the Boltzmann distribution of a spin system with pairwise interactions using Gibbs Sampling. This library is particularly useful for spin glasses, where the lack of structure in the interactions makes Gibbs sampling the only viable option for simulation.  
 
-For more details, check the [documentation](https://cristophererazo.github.io/devtools_scicomp_project_2025/).
+For more details, check the [documentation](https://cristophererazo.github.io/Spin_Sampler/).
 
 
 ---
@@ -96,7 +96,7 @@ To install the Spin Sampler library :
     pip install .
     ```
 
-More details are available in the [installation guide](https://cristophererazo.github.io/devtools_scicomp_project_2025/installation.html).  
+More details are available in the [installation guide](https://cristophererazo.github.io/Spin_Sampler/installation.html).  
 
 ---
 
@@ -131,7 +131,7 @@ The `run_gibbs` method returns the last spin configuration. If `store=True`, the
 
 The parameter `dt_samples` controls how many Gibbs steps are performed between consecutive stored samples, reducing time correlations when needed.
 
-More examples are available in the [usage guide](https://cristophererazo.github.io/devtools_scicomp_project_2025/usage.html).
+More examples are available in the [usage guide](https://cristophererazo.github.io/Spin_Sampler/usage.html).
 
 ---
 
@@ -162,7 +162,7 @@ To improve performance, the `Sampler` class supports multiple backends for Gibbs
 - `numba` (precompiled numpy, faster)  
 - `jax` (with `@jit` compilation and `jax.lax.fori_loop`)  
 
-See the  [API](https://cristophererazo.github.io/devtools_scicomp_project_2025/api.html#gibbs-steps) for more details.
+See the  [API](https://cristophererazo.github.io/Spin_Sampler/api.html#gibbs-steps) for more details.
 
 ---
 
@@ -282,7 +282,7 @@ Further improvements can be achieved by tailoring the code to each backend and e
 
 ## Documentation
 
-- [Introduction](https://cristophererazo.github.io/devtools_scicomp_project_2025/introduction.html)  
-- [Installation](https://cristophererazo.github.io/devtools_scicomp_project_2025/installation.html)  
-- [Usage](https://cristophererazo.github.io/devtools_scicomp_project_2025/usage.html)  
-- [API](https://cristophererazo.github.io/devtools_scicomp_project_2025/api.html)  
+- [Introduction](https://cristophererazo.github.io/Spin_Sampler/introduction.html)  
+- [Installation](https://cristophererazo.github.io/Spin_Sampler/installation.html)  
+- [Usage](https://cristophererazo.github.io/Spin_Sampler/usage.html)  
+- [API](https://cristophererazo.github.io/Spin_Sampler/api.html)  
